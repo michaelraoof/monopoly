@@ -7,3 +7,12 @@ c:\users\ahmed ismail\documents\visual studio 2015\Projects\monopoly\monopoly\ob
 c:\users\ahmed ismail\documents\visual studio 2015\Projects\monopoly\monopoly\obj\Debug\monopoly.csproj.GenerateResource.Cache
 c:\users\ahmed ismail\documents\visual studio 2015\Projects\monopoly\monopoly\obj\Debug\monopoly.exe
 c:\users\ahmed ismail\documents\visual studio 2015\Projects\monopoly\monopoly\obj\Debug\monopoly.pdb
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\bin\Debug\monopoly.exe.config
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\bin\Debug\monopoly.exe
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\bin\Debug\monopoly.pdb
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.Form1.resources
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.Properties.Resources.resources
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.csproj.GenerateResource.Cache
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.exe
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.pdb
+C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.csprojResolveAssemblyReference.cache
