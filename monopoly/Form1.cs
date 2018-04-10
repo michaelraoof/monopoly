@@ -258,14 +258,17 @@ namespace monopoly
         {
 
         }
-        static Random s = new Random();//static make good randomisation
+       // static Random s = new Random();//static make good randomisation
         private void button4_Click(object sender, EventArgs e)
         {
-           
-            int x = s.Next(1, 7);
-            int z = s.Next(1, 7);
 
-            
+            //   int x = s.Next(1, 7);
+            // int z = s.Next(1, 7);
+            dice dic=new dice();
+
+            int x = dic.roll_dice();
+            int z = dic.roll_dice();
+
 
             //loading dice pictures//////////
             if (x == 6) 
@@ -552,6 +555,16 @@ namespace monopoly
     }
     //public class country
     //{ }
+    public class dice
+    {
+        private int d1, d2;
+        static Random s = new Random();//static make good randomisation
+        public int roll_dice()
+        {
+            d1 = s.Next(1, 7);
+            return d1;
+        }
+    }
 
     //public class player
     //{
@@ -561,14 +574,14 @@ namespace monopoly
     //    country[] arr;
 
     //    public void sell_land()
-    //    { money +=contry_price; }
+    //    { money += contry_price; }
     //    public void sell_house()
-    //    { money +=contry_price;}
+    //    { money += contry_price; }
     //    public void trade()
     //    { }
     //    public void build()
-    //    { money -=contry_price;}
+    //    { money -= contry_price; }
     //    public void move(int position)
-    //    {  }
+    //    { }
     //}
 }

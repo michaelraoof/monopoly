@@ -261,9 +261,9 @@
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(1, 510);
+            this.panel1.Location = new System.Drawing.Point(623, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(106, 101);
+            this.panel1.Size = new System.Drawing.Size(92, 107);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -359,9 +359,9 @@
             this.panel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel10.BackgroundImage")));
             this.panel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Location = new System.Drawing.Point(623, 1);
+            this.panel10.Location = new System.Drawing.Point(0, 510);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(92, 107);
+            this.panel10.Size = new System.Drawing.Size(107, 101);
             this.panel10.TabIndex = 9;
             this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
@@ -688,9 +688,9 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(2, 46);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 18);
+            this.label3.Size = new System.Drawing.Size(61, 18);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Marina";
+            this.label3.Text = "Station";
             // 
             // panel28
             // 
@@ -1174,11 +1174,11 @@
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label39.Location = new System.Drawing.Point(4, 48);
+            this.label39.Location = new System.Drawing.Point(10, 37);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(54, 16);
+            this.label39.Size = new System.Drawing.Size(49, 32);
             this.label39.TabIndex = 30;
-            this.label39.Text = "Bultym";
+            this.label39.Text = "Water\r\n Work";
             // 
             // panel51
             // 
@@ -1237,11 +1237,11 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(11, 50);
+            this.label10.Location = new System.Drawing.Point(6, 41);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 18);
+            this.label10.Size = new System.Drawing.Size(52, 36);
             this.label10.TabIndex = 1;
-            this.label10.Text = "Suez";
+            this.label10.Text = "Super\r\n Tax";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // panel3
@@ -1287,6 +1287,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1026, 612);
             this.Controls.Add(this.panel19);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel21);
             this.Controls.Add(this.panel51);
@@ -1315,7 +1317,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.panel20);
             this.Controls.Add(this.panel11);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel37);
             this.Controls.Add(this.panel17);
             this.Controls.Add(this.panel38);
@@ -1332,7 +1333,6 @@
             this.Controls.Add(this.panel23);
             this.Controls.Add(this.panel15);
             this.Controls.Add(this.panel13);
-            this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Name = "Form1";
