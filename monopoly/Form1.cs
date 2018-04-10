@@ -24,7 +24,7 @@ namespace monopoly
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
@@ -265,77 +265,33 @@ namespace monopoly
             int x = s.Next(1, 7);
             int z = s.Next(1, 7);
 
-            //if ((x + z) == 2)
-            //    pictureBox4.Visible = true;
-            //if ((x + z) == 3)
-            //    pictureBox5.Visible = true;
-            //if ((x + z) == 4)
-            //    pictureBox6.Visible = true;
-            //if ((x+z)== 5)
-            //    pictureBox7.Visible = true;
-            //if ((x + z) == 6)
-            //    pictureBox8.Visible = true;
-            //if ((x + z) == 7)
-            //    pictureBox9.Visible = true;
-            //if ((x + z) == 8)
-            //    pictureBox10.Visible = true;
-            //if ((x + z) == 9)
-            //    pictureBox11.Visible = true;
-            //if ((x + z) == 10)
-            //    pictureBox12.Visible = true;
-            //if ((x + z) == 11)
-            //    pictureBox13.Visible = true;
-            //if ((x + z) == 12)
-            //    pictureBox14.Visible = true;
+            
 
-
-            if (x == 6) {
+            //loading dice pictures//////////
+            if (x == 6) 
                 panel37.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(6).png");
-                 }
             if (x == 5)
-            {
                 panel37.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(5).png");
-            }
             if (x == 4)
-            {
                 panel37.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(4).png");
-            }
             if (x == 3)
-            {
                 panel37.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(3).png");
-            }
             if (x == 2)
-            {
                 panel37.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(2).png");
-            }
             if (x == 1)
-            {
                 panel37.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(1).png");
-            }
             if (z == 6)
-            {
                 panel38.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(6).png");
-            }
             if (z == 5)
-            {
                 panel38.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(5).png");
-            }
             if (z == 4)
-            {
                 panel38.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(4).png");
-            }
             if (z == 3)
-            {
                 panel38.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(3).png");
-            }
             if (z == 2)
-            {
                 panel38.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(2).png");
-            }
             if (z == 1)
-            {
                 panel38.BackgroundImage = Image.FromFile(@"C: \Users\Ahmed Ismail\Documents\Visual Studio 2015\Projects\monopoly\monopoly\dice(1).png");
-            }
           
         }
 
@@ -416,10 +372,7 @@ namespace monopoly
         {
 
         }
-        private void Form1_KeyDown(object sender, EventArgs e)
-        {
-
-        }
+     
         private void pictureBox2_PreviewKeyDown(object sender, EventArgs e)
         {
 
@@ -577,21 +530,29 @@ namespace monopoly
 
             panel53.Visible = true;
         }
-
-        private void timer1_Tick(object sender, EventArgs e)
+        //timer to make the picturebox move 
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
             x -= 5;
-           // y += 5;
+            //y += 5;
 
             pictureBox2.Location = new Point(x, y);
-            pictureBox2.BringToFront();
-            panel19.SendToBack();
+            // pictureBox2.BringToFront();
+            //panel19.SendToBack();
             Invalidate();
+        }
+       
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {}
+
+        private void panel51_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
     //public class country
     //{ }
-    
+
     //public class player
     //{
     //    int position;
@@ -600,14 +561,14 @@ namespace monopoly
     //    country[] arr;
 
     //    public void sell_land()
-    //    { }
+    //    { money +=contry_price; }
     //    public void sell_house()
-    //    { }
+    //    { money +=contry_price;}
     //    public void trade()
     //    { }
     //    public void build()
-    //    { }
+    //    { money -=contry_price;}
     //    public void move(int position)
-    //    { }
+    //    {  }
     //}
 }
