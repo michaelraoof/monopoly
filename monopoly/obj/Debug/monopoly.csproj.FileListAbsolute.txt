@@ -16,3 +16,39 @@ C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.csproj.Genera
 C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.exe
 C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.pdb
 C:\Users\Ahmed Ismail\Desktop\monopoly\monopoly\obj\Debug\monopoly.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\project\monopoly\monopoly\bin\Debug\monopoly.exe.config
+C:\Users\Owner\Desktop\project\monopoly\monopoly\bin\Debug\monopoly.exe
+C:\Users\Owner\Desktop\project\monopoly\monopoly\bin\Debug\monopoly.pdb
+C:\Users\Owner\Desktop\project\monopoly\monopoly\obj\Debug\monopoly.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\project\monopoly\monopoly\obj\Debug\monopoly.Form1.resources
+C:\Users\Owner\Desktop\project\monopoly\monopoly\obj\Debug\monopoly.Properties.Resources.resources
+C:\Users\Owner\Desktop\project\monopoly\monopoly\obj\Debug\monopoly.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\project\monopoly\monopoly\obj\Debug\monopoly.exe
+C:\Users\Owner\Desktop\project\monopoly\monopoly\obj\Debug\monopoly.pdb
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.Form1.resources
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.Properties.Resources.resources
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.csproj.GenerateResource.Cache
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.exe
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.pdb
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\bin\Debug\monopoly.exe.config
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\bin\Debug\monopoly.exe
+C:\Users\Owner\Desktop\project\michael_jail_gotojail\monopoly\bin\Debug\monopoly.pdb
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\bin\Debug\monopoly.exe.config
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\bin\Debug\monopoly.exe
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\bin\Debug\monopoly.pdb
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.csprojResolveAssemblyReference.cache
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.Form1.resources
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.Properties.Resources.resources
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.csproj.GenerateResource.Cache
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.exe
+E:\michael\downloads\project\michael_jail_gotojail\monopoly\obj\Debug\monopoly.pdb
+E:\michael\downloads\project\finished_project\monopoly\bin\Debug\monopoly.exe.config
+E:\michael\downloads\project\finished_project\monopoly\bin\Debug\monopoly.exe
+E:\michael\downloads\project\finished_project\monopoly\bin\Debug\monopoly.pdb
+E:\michael\downloads\project\finished_project\monopoly\obj\Debug\monopoly.csprojResolveAssemblyReference.cache
+E:\michael\downloads\project\finished_project\monopoly\obj\Debug\monopoly.Form1.resources
+E:\michael\downloads\project\finished_project\monopoly\obj\Debug\monopoly.Properties.Resources.resources
+E:\michael\downloads\project\finished_project\monopoly\obj\Debug\monopoly.csproj.GenerateResource.Cache
+E:\michael\downloads\project\finished_project\monopoly\obj\Debug\monopoly.exe
+E:\michael\downloads\project\finished_project\monopoly\obj\Debug\monopoly.pdb
